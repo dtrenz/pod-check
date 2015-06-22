@@ -1,7 +1,6 @@
 module Pod
   class Command
     class Open < Command
-
       self.summary = 'Checks if the dependencies listed in Podfile are satisfied by currently installed pods'
       self.description = <<-DESC
         If all pods are found, prints a success message and exits with a status of 0.
