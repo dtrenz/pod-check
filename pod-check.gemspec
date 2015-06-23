@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'pod_check/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'pod-check'
-  spec.version       = PodCheck::VERSION
+  spec.version       = '0.1'
   spec.authors       = ['Dan Trenz']
   spec.email         = ['dtrenz@gmail.com']
 
@@ -26,6 +25,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.7.6'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.3.0'
-  spec.add_development_dependency 'rubocop', '~> 0.32.0'
 end

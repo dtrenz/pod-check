@@ -1,4 +1,4 @@
-# PodCheck
+# Cocoapods::Check
 
 ![Travis-CI Build Status](https://travis-ci.org/dtrenz/pod-check.svg?branch=master)
 
